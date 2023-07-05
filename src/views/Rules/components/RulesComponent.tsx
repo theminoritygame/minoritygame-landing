@@ -1,25 +1,8 @@
 import React from 'react';
 import './RulesComponent.scss';
-
-import votingImage from './vote.jpg';
-import Rule1 from "../../../assets/images/rule1.png";
-import Rule2 from "../../../assets/images/rule2.png";
-import Rule3 from "../../../assets/images/rule3.png";
-import waitingImage from './timerGlass.jpg';
-import winnings from './winnings.png';
-import Tooltip from '@material-ui/core/Tooltip';
-import { IconButton } from '@material-ui/core';
-import { HelpSharp } from '@material-ui/icons';
-import DescValuesImage from "src/assets/images/desc-values.png";
-import StrategiesImage from "src/assets/images/our-values/strategies.svg";
-import GameImage from "src/assets/images/gameScreen.png";
 import Ballot from "src/assets/images/ballot.png";
 import Clock from "src/assets/images/clock.png";
 import Coins from "src/assets/images/coins2.png";
-import Ballot2 from "src/assets/images/ballot2.png";
-import TimeImage from "src/assets/images/our-values/time.svg";
-import ManagementImaage from "src/assets/images/our-values/management.svg";
-import PartnersImage from "src/assets/images/our-values/partners.svg";
 import TimeBackImage from "src/assets/images/time-back.png";
 
 

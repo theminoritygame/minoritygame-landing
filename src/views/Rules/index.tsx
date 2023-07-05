@@ -1,4 +1,4 @@
-import { Grid, InputAdornment, OutlinedInput, Zoom } from "@material-ui/core";
+import { Zoom } from "@material-ui/core";
 import "./rules.scss";
 import RulesComponent from "./components/RulesComponent"
 

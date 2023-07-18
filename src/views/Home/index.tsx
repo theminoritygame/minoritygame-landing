@@ -1,7 +1,7 @@
 import "./home.scss";
 import { Link } from "@material-ui/core";
 import BgImage from "src/assets/images/bg33.png";
-import Vote from "src/assets/images/coolImg.png";
+import Vote from "src/assets/images/atom1.png";
 import Abstract from "src/assets/images/abstract.svg";
 import Puzzle from "src/assets/images/puzzle.svg";
 

@@ -4,6 +4,7 @@ import BgImage from "src/assets/images/bg33.png";
 import Vote from "src/assets/images/atom1.png";
 import Abstract from "src/assets/images/abstract.svg";
 import Puzzle from "src/assets/images/puzzle.svg";
+import Dice from "src/assets/images/dice.png";
 
 function Home() {
     return (
@@ -20,7 +21,7 @@ function Home() {
             </section>
             <section className="promo-item">
                 <div className="promo-item__img">
-                    <img className="illustration-image" src={Vote} alt="" />
+                    <img className="illustration-image" style={{ width: '250px' }} src={Dice} alt="" />
                 </div>
                 <div className="promo-item__discription">
                     <h3>How It Works</h3>
@@ -31,7 +32,8 @@ function Home() {
             </section>
             <section className="promo-item">
                 <div className="promo-item__img">
-                    <img className="illustration-image" src={Abstract} alt="" />
+                    {/* <img className="illustration-image" src={Abstract} alt="" /> */}
+                                        <img className="illustration-image" src={Vote} alt="" />
                 </div>
                 <div className="promo-item__discription">
                     <h3>Our Strengths</h3>
@@ -47,7 +49,7 @@ function Home() {
                 <div className="promo-item__discription">
                     <h3>Daily Challenge</h3>
                     <div className="promo-item__discription-sub">
-                        New game everyday with most interesting and craziest of the challenges to to push the limits of even the smartest minds.
+                        New game everyday with craziest of the challenges to push the limits of even the smartest minds.
                     </div>
                 </div>
             </section>

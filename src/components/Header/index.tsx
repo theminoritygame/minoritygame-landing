@@ -50,6 +50,13 @@ function Header() {
             </Link>
             <div className={classNames("nav-wrap", { "nav-mobile": mobileMenu })}>
                 <div className="nav">
+                    <a
+                        className="nav-link"
+                        href="https://app.theminoritygame.com"  // Use the 'href' attribute to set the desired URL
+                        style={{ color: 'inherit', textDecoration: 'none' }} // Apply styles as needed
+                    >
+                        <span onClick={() => toggleMobileMenu()}>Play</span>
+                    </a>
                     <Link
                         component={NavLink}
                         className="nav-link"

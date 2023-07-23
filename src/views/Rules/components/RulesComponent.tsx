@@ -1,8 +1,8 @@
 import React from 'react';
 import './RulesComponent.scss';
-import Ballot from "src/assets/images/ballot.png";
-import Clock from "src/assets/images/clock.png";
-import Coins from "src/assets/images/coins2.png";
+import Ballot from "src/assets/images/ballot.jpg";
+import Clock from "src/assets/images/clock.jpg";
+import Coins from "src/assets/images/coins2.jpg";
 import TimeBackImage from "src/assets/images/time-back.png";
 
 

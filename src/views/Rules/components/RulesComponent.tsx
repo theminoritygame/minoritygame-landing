@@ -7,16 +7,16 @@ import TimeBackImage from "src/assets/images/time-back.png";
 
 
 const rulesText = [
-  "New Game everyday!",
-  "Goal: Predict which option will be chosen the least (Minority) and vote for that.",
-  "Vote for any choice, any number of times till voting lasts (24 hrs)",
-  "Each vote costs a price in BNB.",
-  "Your vote is encrypted using a secret key and commited onchain",
-  "Wait for up to 24 hours for the votes to be counted, tested on-chain, and results published.",
-  "If you believe there's a counting issue (not possible as everything is on-chain and ECC encrypted - check whitepaper), challenge it to win a prize. Read more in FAQs.",
+  "NEW GAME EVERYDAY!",
+  "Predict which of the two options will be chosen the least (minority)",
+  "VOTE for any choice, any number of times till the voting ends (24 hrs)",
+  "Each vote costs a mining fee in BNB.",
+  "Your vote is ENCRYPTED using a secret key and COMMITTED ON-CHAIN",
+  "Wait for up to 6 hrs for the votes to be counted, PUBLISHED and VALIDATED onChain",
+  "Verification: Correctness is ensured by starting a CHALLENGE phase, where results can be challenged by running onChain computation to win rewards. Read more in FAQs.",
   // "Challenge Phase: If you think the results are inaccurate, you can challenge them by running the computation on-chain. Read more in FAQs.",
-  "The winning votes can be burned to claim the prize.",
-  "Payout is twice your investment and more."
+  "The winning votes can be burned to CLAIM the PRIZE in BNB immediately after Results get Locked.",
+  "PAYOUT is at least 2X your investment and more."
 ]
 
 const CARDS = [
@@ -29,7 +29,7 @@ const CARDS = [
   },
   {
     title: "Vote Counting",
-    textList: ["Lasts upto 24 hours"],
+    textList: ["Lasts upto 6 hours"],
     img: Clock,
   },
   {
@@ -40,11 +40,11 @@ const CARDS = [
 
 const rules = [
   <React.Fragment>
-    {rulesText[0]}
+    <div style={{fontWeight: 'bold', color: '#c3d9d8', display:'none'}}>{rulesText[0]}</div>
     <br></br>
   </React.Fragment>,
   <React.Fragment>
-    {rulesText[1]}
+    <div style={{fontWeight: 'bold', color: '#c3d9d8'}}>{rulesText[1]}</div>
   </React.Fragment>,
   <React.Fragment>
     <div className="list-item-left" key={0}>

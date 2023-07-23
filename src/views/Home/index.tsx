@@ -2,7 +2,6 @@ import "./home.scss";
 import { Link } from "@material-ui/core";
 import BgImage from "src/assets/images/bg33.png";
 import Vote from "src/assets/images/atom1.png";
-import Abstract from "src/assets/images/abstract.svg";
 import Puzzle from "src/assets/images/puzzle.svg";
 import Dice from "src/assets/images/dice.png";
 
@@ -32,8 +31,7 @@ function Home() {
             </section>
             <section className="promo-item">
                 <div className="promo-item__img">
-                    {/* <img className="illustration-image" src={Abstract} alt="" /> */}
-                                        <img className="illustration-image" src={Vote} alt="" />
+                    <img className="illustration-image" src={Vote} alt="" />
                 </div>
                 <div className="promo-item__discription">
                     <h3>Our Strengths</h3>
